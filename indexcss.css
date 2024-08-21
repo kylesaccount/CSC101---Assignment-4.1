@@ -1,0 +1,56 @@
+/* Styling for a nice user experience */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Styling the buttons */
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+/* Styling for Start button */
+#startBtn {
+    background-color: #4CAF50; /* Green background */
+}
+
+/* Styling for Start button hover effect */
+#startBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Styling for Stop button */
+#stopBtn {
+    background-color: #f44336; /* Red background */
+}
+
+/* Styling for Stop button hover effect */
+#stopBtn:hover {
+    background-color: #e53935; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Styling the meme image */
+#meme {
+    position: absolute;
+    width: 250px;
+    transition: transform 0.3s ease; /* Smooth movement */
+}
